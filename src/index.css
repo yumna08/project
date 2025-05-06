@@ -8,3 +8,14 @@
 body {
   background: #f1f1f1;
 }
+
+.loginBg{
+  background: url("./assets/image/image1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-attachment: fixed;
+  /* background-color: #f1f1f1; */
+  /* background-blend-mode: overlay; */
+  /* background-color: rgba(0, 0, 0, 0.5); */
+}

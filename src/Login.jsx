@@ -2,13 +2,13 @@ import React from "react";
 
 export default function Login() {
   return (
-    <div className="min-h-screen flex items-center justify-center p-4 bg-[url('https://t4.ftcdn.net/jpg/06/91/05/19/360_F_691051979_Xr9vx5g4lX59PT27nFe4Y7AHUuGh4i2S.jpg')] bg-cover bg-center">
-      <div className="bg-gray p-12 rounded-3xl border-2 border-gray-400 max-w-md  w-full">
+    <div className="min-h-screen flex p-4 loginBg  bg-center">
+      <div className=" p-12 rounded-3xl border-2 border-gray-200 w-lg">
        <header className="mb-10"> 
-          <h1 className="text-4xl font-bold text-gray-300">
+          <h1 className="text-4xl font-bold text-red-900">
             Welcome Back
           </h1>
-          <p className="text-gray-400 mt-3 text-lg">
+          <p className="text-red-700 mt-3 text-lg">
             Welcome back! Please Login.
           </p>
         </header>
@@ -17,17 +17,17 @@ export default function Login() {
 
           <div className="space-y-1.5">
             <label for="email"
-              className="block text-gray-400 font-medium text-lg">
+              className="block text-red-700 font-medium text-lg">
                 Email
             </label>
             <input
               id="email"
               type="email"
               className="w-full px-5 py-3.5 border-2
-                       border-gray-100 rounded-3xl
-                       focus:border-blue-200 focus:ring-1
-                       focus:ring-blue-100 
-                       text-gray-300
+                       border-red-300 rounded-3xl
+                       focus:border-rose-500 focus:ring-1
+                       focus:ring-rose-800
+                      text-red-700
                        transition-all duration-200 outline-none"
               placeholder="Enter your email"/>
           </div>
@@ -38,17 +38,17 @@ export default function Login() {
           <div className="space-y-1.5">
             <label
               for="password"
-              className="block text-gray-400 font-medium text-lg">
+              className="block text-red-700 font-medium text-lg">
               Password
             </label>
             <input
               id="password"
               type="password"
               className="w-full px-5 py-3.5 border-2
-                       border-gray-100 rounded-3xl
-                       focus:border-blue-200 focus:ring-1
-                       focus:ring-blue-100
-                       text-gray-300 
+                       border-red-300 rounded-3xl
+                       focus:border-rose-500 focus:ring-1
+                       focus:ring-rose-800
+                       text-red-700 
                        transition-all duration-200 outline-none"
               placeholder="Enter your password"/>
           </div>
@@ -61,18 +61,18 @@ export default function Login() {
               <input
                 id="remember"
                 type="checkbox"
-                className="h-5 w-5 rounded border-gray-300 text-blue-300 
-                         focus:ring-blue-300 transition"
+                className="h-5 w-5 rounded border-red-300 text-red-300 
+                         focus:ring-red-400 transition"
               />
               <label
                 for="remember"
-                className="ml-3 text-gray-400 font-medium">
+                className="ml-3 text-red-800 font-medium">
                 Remember me
               </label>
             </div>
             <button
               type="button"
-              className="text-blue-300 hover:text-blue-400 font-medium 
+              className="text-red-900 hover:text-rose-950 font-medium 
                          transition-colors duration-200">
               Forgot password?
             </button>
@@ -84,23 +84,23 @@ export default function Login() {
           <button
             type="submit"
             className="w-full mt-8 py-4
-                       bg-gray-500
-                       hover:bg-gray-600 
+                       bg-red-900
+                       hover:bg-rose-950
                        text-white 
                        font-semibold rounded-xl shadow-sm
                        transform hover:-translate-y-0.5 transition-all 
                        duration-200 active:translate-y-0">
-            Sign In
+              Sign In
           </button>
         
         </form>
 
         
-        <p className="text-center text-gray-400 mt-10 text-sm">
-          Don't have an account?{" "}
+        <p className="text-center text-red-700 mt-10 text-sm">
+              Don't have an account?
           <button 
-            className="text-blue-300 font-medium hover:bg-blue-400">
-            Sign up
+            className="text-red-900 font-medium hover:text-rose-950">
+              Sign up
           </button>
         </p>
       </div>
